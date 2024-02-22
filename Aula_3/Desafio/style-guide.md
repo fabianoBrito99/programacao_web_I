@@ -1,32 +1,25 @@
-# Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
+# Front
 
 ## Colors
 
 ### Primary
 
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
+- Azul claro: hsl (225, 100%, 94%)
+- Azul brilhante: hsl (245, 75%, 52%)
 
-### Neutral
+### Neutro
 
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
+- Azul muito claro: hsl(225, 100%, 98%)
+- Azul dessaturado: hsl (224, 23%, 55%)
+- Azul escuro: hsl (223, 47%, 23%)
 
-## Typography
+## Tipografia
 
-### Body Copy
+### Cópia do corpo
 
-- Font size (paragraph): 16px
+- Tamanho da fonte (parágrafo): 16px
 
-### Font
+### Fonte
 
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900
+- Família: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Pesos: 500, 700, 900
