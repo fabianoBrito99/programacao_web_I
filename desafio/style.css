@@ -1,109 +1,94 @@
-
-body{
-    font-family: "Red Hat Display";
-    font-weight: 500;
-    font-size: 1.5rem;
+body {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 1.5rem;
 }
-html{
-    background-color: hsl(225, 100%, 94%);
+html {
+  background-color: hsl(225, 100%, 94%);
 }
-p{
- padding: 0px 100px;
+p {
+  padding: 0px 100px;
 }
-h1{
-    font-size: 3rem;
-    text-align: center;
+h1 {
+  font-size: 3rem;
+  text-align: center;
 }
-.fundo{
-    position: relative;
-    display: flex;
-   
-    
+.fundo {
+  position: relative;
+  display: flex;
 }
-   
-  .conteudo{
-    position: absolute;
-    margin: 100px ;
-    border-radius: 20px;
-    background-color: white;
-    box-shadow:  0 5px 5px hsla(223, 47%, 23%, 0.425);
-    
-   
-   
-  }
-  .conteudo img{
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
-  }
-  .plano{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   padding: 20px;
-    margin: 100px;
-  }
-  .plano{
-    background: hsl(225, 100%, 98%);
-    border-radius: 10px;
-  }
-  .planoAnual{
-    padding-right: 150px;
-   
-    
-  }
- 
-  .plano img{
-   width: 100px;
-  }
-  .planoAnual
 
-  h1{
-    color: hsl (225, 100%, 94%);
-  }
+.conteudo {
+  position: absolute;
+  margin: 100px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 5px 5px hsla(223, 47%, 23%, 0.425);
+}
+.conteudo img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+.plano {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 100px;
+}
+.plano {
+  background: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+.plano1 {
+  display: flex;
+  gap: 20px;
+}
 
-  .botao{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    
-    
-  }
- .btAzul{
-   display: inline-block;
-    padding: 20px 30px;
-    border-radius: 10px;
-    border-style: none;
-    background:hsl(245, 75%, 52%) ;
-    box-shadow: 0 3px 5px hsl(223, 47%, 23%);
-    text-transform: initial;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
+.plano img {
+  width: 100px;
+}
+.planoAnual h1 {
+  color: hsl (225, 100%, 94%);
+}
 
-   
-  }
-  .btBranco{
-    background:hsla(224, 23%, 55%, 0) ;
-    border-style: none;
-    padding: 30px 50px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: hsl(224, 23%, 55%);
- 
-  }
+.botao {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.btAzul {
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border-style: none;
+  background: hsl(245, 75%, 52%);
+  box-shadow: 0 3px 5px hsl(223, 47%, 23%);
+  text-transform: initial;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.btBranco {
+  background: hsla(224, 23%, 55%, 0);
+  border-style: none;
+  padding: 30px 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+}
 
-  .btAzul:hover{
-    background:hsl(224, 23%, 55%) ;
-  }
-  a:hover{
-    text-decoration: none;
-  }
-  .btBranco:hover{
-    color:hsl(223, 47%, 23%);
-  }
-  
-  .corClara{
-    color:hsl(224, 23%, 55%) ;
-  }
+.btAzul:hover {
+  background: hsl(224, 23%, 55%);
+}
+a:hover {
+  text-decoration: none;
+}
+.btBranco:hover {
+  color: hsl(223, 47%, 23%);
+}
 
-
+.corClara {
+  color: hsl(224, 23%, 55%);
+}
