@@ -2,10 +2,15 @@ body {
   font-family: "Red Hat Display";
   font-weight: 500;
   font-size: 1.5rem;
+  padding: 80px;
 }
 html {
   background-color: hsl(225, 100%, 94%);
+  background-image: url(../Aula_3/Desafio/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
 p {
   padding: 0px 100px;
 }
@@ -13,15 +18,14 @@ h1 {
   font-size: 3rem;
   text-align: center;
 }
-.fundo {
-  position: relative;
-  display: flex;
-}
+
+
 
 .conteudo {
-  position: absolute;
-  margin: 100px;
-  margin-top: 20px;
+  margin-top: 10px;
+  
+  width: 50%;
+  margin: auto ;
   border-radius: 20px;
   background-color: white;
   box-shadow: 0 5px 5px hsla(223, 47%, 23%, 0.425);
