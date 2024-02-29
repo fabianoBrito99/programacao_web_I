@@ -96,3 +96,22 @@ a:hover {
 .corClara {
   color: hsl(224, 23%, 55%);
 }
+
+footer{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:1200px){
+.plano{
+  display: flex;
+  flex-direction: column;
+} 
+.conteudo {
+  margin-top: 10px;
+  width: 100vw;
+ 
+}
+}
